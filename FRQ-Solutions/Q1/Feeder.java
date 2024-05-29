@@ -15,6 +15,8 @@ public class Feeder{
       }else{
         currentFood -= total;
       }
+    }else{
+      currentFood = 0;
     }
   }
 
